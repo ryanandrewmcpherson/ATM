@@ -1,13 +1,13 @@
 # ATM 1.0
 
 ## User Inputs
-4 Digit Debit Card (4123)
-4 Digit Pin (1111)
-Deposit Amount
-Withdrawal Amount
-Customer Number (12345)
-New Pin 
-Confirm New Pin
+	4 Digit Debit Card (4123)
+	4 Digit Pin (1111)
+	Deposit Amount
+	Withdrawal Amount
+	Customer Number (12345)
+	New Pin 
+	Confirm New Pin
 
 ### Functions
 #### 1. Debit Card Validation
