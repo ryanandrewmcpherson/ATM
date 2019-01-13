@@ -13,12 +13,12 @@ Confirm New Pin
 #### 1. Debit Card Validation
 #### 2. Pin Code Validation
 #### 3. Menu
-     #####  1. Balance
-     #####  2. Deposit
-     #####  3. Withdrawal
-     #####  4. Reset Pin
+      1. Balance
+      2. Deposit
+      3. Withdrawal
+      4. Reset Pin
 
 ### Special Features
-#### 1. Input Validation at every Step
-#### 2. Exit available at every step
-#### 3. Session Terminates after 3 invalid attempts at every step
+	1. Input Validation at every Step
+	2. Exit available at every step
+	3. Session Terminates after 3 invalid attempts at every step
