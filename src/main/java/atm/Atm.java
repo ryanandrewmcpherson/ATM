@@ -225,7 +225,7 @@ public class Atm {
 	
 		for (Acct acct : getAccts(cust)) {
 	
-			System.out.println("Press " + (getAccts(cust).indexOf(acct) + 1) + " for " + acctNum(acct) + "*****" + acctName(acct));
+			System.out.println("Press " + (getAccts(cust).indexOf(acct) + 1) + " for " + acctName(acct) + " account *****" + acctNum(acct));
 	
 		}
 		for (int numInvalidResponses = 0; !validateInput(
@@ -268,8 +268,7 @@ public class Atm {
 	}
 
 	private Acct depositPrompt(Acct acct) {
-		System.out.println(
-				"Please enter the deposit amount for " + acct.getAcctName() + " account *****" + acctNum(acct));
+		System.out.println("Please enter the deposit amount for " + acct.getAcctName() + " *****" + acctNum(acct));
 	
 		return acct;
 	}
